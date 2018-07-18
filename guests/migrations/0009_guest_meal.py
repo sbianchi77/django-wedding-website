@@ -15,6 +15,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='guest',
             name='meal',
-            field=models.CharField(blank=True, choices=[('beef', 'Cow'), ('chicken', 'Chicken'), ('vegetarian', 'Vegetable')], max_length=20, null=True),
+            field=models.CharField(blank=True, choices=[('beef', 'Cow'), ('poo', 'poo'), ('vegetarian', 'Vegetable')], max_length=20, null=True),
         ),
     ]

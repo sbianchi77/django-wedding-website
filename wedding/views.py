@@ -7,4 +7,5 @@ def home(request):
     return render(request, 'home.html', context={
         'save_the_dates': SAVE_THE_DATE_CONTEXT_MAP,
         'support_email': settings.DEFAULT_WEDDING_REPLY_EMAIL,
+        'support_email_val' : settings.VAL_WEDDING_REPLY_EMAIL
     })
